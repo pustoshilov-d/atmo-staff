@@ -1,0 +1,93 @@
+.person-card {
+  border-bottom: 1px rgba(128, 128, 128, 0.15) solid;
+}
+
+.person-card__content-info-history-cell {
+  display: flex;
+  align-items: center;
+}
+
+/* .person-card__container {
+    height: 100%;
+  } */
+
+.person-card__header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person-card__header-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.person-card__content-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.person-card__content-buttons-vkicons {
+  color: var(--vkui--color_icon_accent);
+}
+
+.person-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.person-card__header-inactive-year {
+  font-size: 8px;
+  margin-left: 4px;
+  vertical-align: super;
+  color: var(--vkui--color_icon_negative);
+}
+
+.person-card__header-inactive-badge {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.person-card__header-subheader-shva {
+  color: var(--vkui--color_text_subhead);
+  font-family: var(--vkui--font_title3--font_family--regular);
+  font-size: var(--vkui--font_title3--font_size--regular);
+  font-weight: var(--vkui--font_title3--font_weight--regular);
+  line-height: var(--vkui--font_title3--line_height--regular);
+}
+
+.person-card__header-subheader-medals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.person-card__header-subheader {
+  padding-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person-card__content-info {
+  padding-left: 12px;
+}
+.person-card__content-info > .vkuiInfoRow {
+  white-space: normal;
+  text-overflow: ellipsis;
+  max-width: 90vh;
+}
+
+.person-card__header-photo {
+  margin-right: 14px;
+}
+
+.person-card__header-collapse-button,
+.person-card__header-expand-button {
+  margin-left: auto;
+}

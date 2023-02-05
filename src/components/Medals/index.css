@@ -1,0 +1,22 @@
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+
+/* #C0C0C0 */
+.medals__medal_colored-silver {
+  filter: invert(83%) sepia(40%) saturate(0%) hue-rotate(202deg) brightness(86%) contrast(94%);
+}
+
+/* #CD7F32 */
+.medals__medal_colored-bronze {
+  filter: invert(57%) sepia(71%) saturate(460%) hue-rotate(348deg) brightness(84%) contrast(90%);
+}
+
+/* #FFD700 */
+.medals__medal_colored-gold {
+  filter: invert(90%) sepia(14%) saturate(4676%) hue-rotate(356deg) brightness(99%) contrast(104%);
+}
+
+/* #BB2649 */
+.medals__medal_colored-red {
+    filter: invert(23%) sepia(35%) saturate(4324%) hue-rotate(324deg) brightness(90%) contrast(95%);
+  }
+  

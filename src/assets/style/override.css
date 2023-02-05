@@ -1,0 +1,31 @@
+.vkuiInfoRow {
+  white-space: break-spaces !important;
+  font-size: 12px !important;
+  margin-top: 6px !important;
+}
+
+.vkuiInfoRow__header {
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+}
+
+.vkuiSimpleCell__children {
+  width: 100% !important;
+}
+
+.vkuiFooter {
+  padding: 5px 0px 8px 0px !important ;
+  margin: 0px !important;
+  background: var(--vkui--color_background_content);
+  border-top: gray 1px solid;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+}
+
+.vkuiPanel__in {
+  height: inherit;
+  width: inherit;
+}
